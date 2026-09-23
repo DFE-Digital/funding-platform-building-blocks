@@ -39,8 +39,8 @@
       }
     },
     "defaultCapacity": {
-      "type": "int",
-      "defaultValue": 2,
+      "type": "string",
+      "defaultValue": "2",
       "metadata": {
         "description": "The default number of instances without any autoscale rules being applied"
       }
