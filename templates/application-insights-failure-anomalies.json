@@ -23,11 +23,11 @@
         },
         "severity": {
             "type": "string",
-            "defaultValue": "2",
+            "defaultValue": "Sev2",
             "allowedValues": [
-                "1",
-                "2",
-                "3"
+                "Sev1",
+                "Sev2",
+                "Sev3"
             ]
         }
     },
