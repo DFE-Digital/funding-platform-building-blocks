@@ -10,7 +10,7 @@
         },
         "registrySkuName": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "Basic",
             "allowedValues": [
                 "Classic",
                 "Basic",
