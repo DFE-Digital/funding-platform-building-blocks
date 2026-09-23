@@ -44,7 +44,7 @@
         },
         "enableAutoScaling": {
             "type": "bool",
-            "defaultValue": "true",
+            "defaultValue": true,
             "metadata": {
                 "description": "Enable autoscaling on this node pool. defaults to true"
             }
