@@ -33,7 +33,7 @@
   "variables": {},
   "resources": [
     {
-      "name": "[concat(parameters('serverName'), '/', if(greater(length(parameters('firewallRuleNamePrefix')), 0), parameters('ipAddresses')[copyIndex()], 'placeholder'))]",
+      "name": "[concat(parameters('serverName'), '/', parameters('firewallRuleNamePrefix'), if(greater(length(parameters('ipAddresses')), 0), parameters('ipAddresses')[copyIndex()], 'placeholder'))]"
       "condition": "[greater(length(parameters('ipAddresses')), 0)]",
       "type": "Microsoft.Sql/servers/firewallRules",
       "apiVersion": "2015-05-01-preview",
