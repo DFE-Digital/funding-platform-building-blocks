@@ -168,7 +168,7 @@
         ],
         "metrics": [
           {
-            "timeGrain": "AllMetrics",
+            "category": "AllMetrics",
             "enabled": true,
             "retentionPolicy": {
               "enabled": true,
