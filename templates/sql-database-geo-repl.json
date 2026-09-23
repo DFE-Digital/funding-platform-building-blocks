@@ -178,7 +178,7 @@
         ]
       },
       "dependsOn": [
-        "[parameters('databaseName')]"
+        "[resourceId('Microsoft.Sql/servers/databases', parameters('replicaSqlServerName'), parameters('databaseName'))]"
       ]
     },
     {
