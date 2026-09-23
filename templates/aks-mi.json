@@ -138,7 +138,7 @@
         },
         "privateClusterDnsZone": {
             "type": "string",
-            "defaultValue": "[parameters('clusterName')]",
+            "defaultValue": "system",
             "metadata": {
                 "description": "The name of the private dns zone. defaults to the cluster name."
             }
