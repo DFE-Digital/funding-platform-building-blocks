@@ -57,12 +57,12 @@
             }
         },
         "skuCount": {
-            "type": "string",
+            "type": "int",
             "allowedValues": [
-                "1",
-                "2"
+                1,
+                2
             ],
-            "defaultValue": "1",
+            "defaultValue": 1,
             "metadata": {
                 "description": "The instance size of this API Management service."
             }
