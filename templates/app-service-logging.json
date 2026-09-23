@@ -82,7 +82,7 @@
     "httpLogBlobName": "[concat(parameters('appServiceResourceName'),'-webserver-logs')]",
     "serviceSasApplicationProperties": {
       "canonicalizedResource": "[concat('/blob/', parameters('sharedLogStorageAccount'), '/', variables('applicationLogBlobName'))]",
-      "signedVersion ": "2018-03-28",
+      "signedVersion": "2018-03-28",
       "signedResource": "c",
       "signedPermission": "rwdl",
       "signedExpiry": "2045-01-01T00:00:00Z"
